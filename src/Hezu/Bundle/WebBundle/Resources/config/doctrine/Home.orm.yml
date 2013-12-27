@@ -1,0 +1,13 @@
+Hezu\Bundle\WebBundle\Entity\Home:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        users:
+            type: string
+            length: 2000
+    lifecycleCallbacks: {  }

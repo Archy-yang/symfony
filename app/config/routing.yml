@@ -1,0 +1,7 @@
+hezu_demo:
+    resource: '@HezuWebBundle/Controller/DemoController.php'
+    prefix: /
+    type:   annotation
+
+hezu_web:
+    resource: '@HezuWebBundle/Resources/config/route.yml'

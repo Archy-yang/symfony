@@ -1,0 +1,4 @@
+hezu_web_home:
+    resource: '@HezuWebBundle/Controller/HomeController.php'
+    type: annotation
+    prefix: /home

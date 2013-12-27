@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block primary %}
+<h1>Add member<h1>
+        <form action="{{ path('hezu_web_home_update') }}" method="post">
+            {{ form_row(form.users, { label: "name" }) }}
+            {{ form_row(form._token) }}
+    <input type="submit" class="btn btn-primary" value="submit">
+</form>
+{% endblock primary %}
